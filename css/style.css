@@ -95,8 +95,16 @@ You can see that in the mobile view they all have the same width.  */
 solid 10px border with a color of #50C7C7, 
 10px margin on all four sides and a width of 300px. */
 
+/* .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
 .gallery {
   display: flex;
+  /* order: 1; */
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
