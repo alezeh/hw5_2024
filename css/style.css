@@ -195,11 +195,11 @@ solid 10px border with a color of #50C7C7,
       .pricing {
         display: flex;
         align-items: center;
+        flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
       }
       .card {
-        flex: 0 1 275px;
         border: solid 2px #45ADDD;
         flex: 0 1 325px;
       }
