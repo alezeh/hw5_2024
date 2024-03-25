@@ -62,7 +62,6 @@ a:link, a:visited {
     border: solid 2px #45ADAD;
     padding: 20px 0;
     border-radius: 50px 50px 0 0;
-    
 }
 
 div.card  {
@@ -81,25 +80,19 @@ You can see that in the mobile view they all have the same width.  */
   flex: 0 1 450px;
 }
 
-/* Step 8: Edit the css for the pricing class to match our example. You should use flex and the cards should be centered both horizontally and vertically */ */
+/* Step 8: Edit the css for the pricing class to match our example. You should use flex and the cards should be centered both horizontally and vertically */
 
 
 .pricing {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 /* These elements will have a 
 solid 10px border with a color of #50C7C7, 
 10px margin on all four sides and a width of 300px. */
-
-/* .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
 
 .gallery {
   display: flex;
@@ -109,6 +102,7 @@ solid 10px border with a color of #50C7C7,
   justify-content: center;
 }
 
+
 /* Style the images in the gallery class. These elements will have a solid 10px border with a color of #50C7C7, 10px margin on all four sides and a width of 300px.   */
 
 .gallery img {
@@ -116,6 +110,7 @@ solid 10px border with a color of #50C7C7,
   margin: 10px;
   width: 300px;
 }
+
 
 /* create media query for when the screen-size is greater than 900px */
 
